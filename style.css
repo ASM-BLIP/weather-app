@@ -1,0 +1,54 @@
+.card {
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    margin-top: 1.5rem;
+    border-radius: 15px !important;
+}
+
+.card-header {
+    padding: 1rem !important;
+}
+
+.hide {
+    display: none !important;
+}
+
+.show {
+    display: block !important;
+}
+
+h2.main {
+    color: #000;
+    margin: 1rem auto;
+}
+
+#cityInput {
+    padding: 0.4rem;
+    width: 50%;
+}
+
+button {
+    cursor: pointer;
+    padding: 0.45rem 1rem;
+    margin: auto 1rem !important;
+    background-color: transparent;
+    border: 2px solid rgb(0, 255, 0);
+    color: rgb(0, 255, 0);
+    outline: none;
+    border-radius: 0.5rem !important;
+    transition: all 0.2s;
+}
+
+button:hover {
+    background-color: rgb(44, 255, 44);
+    color: #fff;
+}
+
+#icon {
+    margin: 1rem auto;
+}
+
+p {
+    font-size: 1.2rem;
+}
