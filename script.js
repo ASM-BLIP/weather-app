@@ -54,35 +54,35 @@ function getWeather()
         switch (description) {
 
           case "Snow" :
-            document.getElementById("bg").style.background = linearGradient + ", url('img/snow.gif')";
+            document.getElementById("bg").style.background = linearGradient + ", url('https://mdbgo.io/ascensus/mdb-advanced/img/snow.gif')";
             break;
             
           case "Clouds" :
-            document.getElementById("bg").style.background = linearGradient + ", url('img/clouds.gif')";
+            document.getElementById("bg").style.background = linearGradient + ", url('https://mdbgo.io/ascensus/mdb-advanced/img/clouds.gif')";
             break;
             
           case "Fog" :
-            document.getElementById("bg").style.background = linearGradient + ", url('img/fog.gif')";
+            document.getElementById("bg").style.background = linearGradient + ", url('https://mdbgo.io/ascensus/mdb-advanced/img/fog.gif')";
             break;
             
           case "Rain" :
-            document.getElementById("bg").style.background = linearGradient + ", url('img/rain.gif')";
+            document.getElementById("bg").style.background = linearGradient + ", url('https://media.giphy.com/media/Mgq7EMQUrhcvC/giphy.gif')";
             break;
             
           case "Clear" :
-            document.getElementById("bg").style.background = linearGradient + ", url('img/clear.gif')";
+            document.getElementById("bg").style.background = linearGradient + ", url('https://mdbgo.io/ascensus/mdb-advanced/img/clear.gif')";
             break;
 
           case "Drizzle" :
-            document.getElementById("bg").style.background = linearGradient + ", url('img/drizzle.webp')";
+            document.getElementById("bg").style.background = linearGradient + ", url('https://media.giphy.com/media/t7Qb8655Z1VfBGr5XB/giphy.gif')";
             break;
             
           case "Thunderstorm" :
-            document.getElementById("bg").style.background = linearGradient + ", url('img/thunderstorm.gif')";
+            document.getElementById("bg").style.background = linearGradient + ", url('https://mdbgo.io/ascensus/mdb-advanced/img/thunderstorm.gif')";
             break;
             
           default:
-            document.getElementById("bg").style.background = linearGradient + ", url('img/clear.gif')";
+            document.getElementById("bg").style.background = linearGradient + ", url('https://mdbgo.io/ascensus/mdb-advanced/img/clear.gif')";
             break;
             
         }
