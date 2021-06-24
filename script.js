@@ -54,35 +54,35 @@ function getWeather()
         switch (description) {
 
           case "Snow" :
-            document.getElementById("bg").style.background = linearGradient + ", url('/img/snow.gif')";
+            document.getElementById("bg").style.background = linearGradient + ", url('img/snow.gif')";
             break;
             
           case "Clouds" :
-            document.getElementById("bg").style.background = linearGradient + ", url('/img/clouds.gif')";
+            document.getElementById("bg").style.background = linearGradient + ", url('img/clouds.gif')";
             break;
             
           case "Fog" :
-            document.getElementById("bg").style.background = linearGradient + ", url('/img/fog.gif')";
+            document.getElementById("bg").style.background = linearGradient + ", url('img/fog.gif')";
             break;
             
           case "Rain" :
-            document.getElementById("bg").style.background = linearGradient + ", url('/img/rain.gif')";
+            document.getElementById("bg").style.background = linearGradient + ", url('img/rain.gif')";
             break;
             
           case "Clear" :
-            document.getElementById("bg").style.background = linearGradient + ", url('/img/clear.gif')";
+            document.getElementById("bg").style.background = linearGradient + ", url('img/clear.gif')";
             break;
 
           case "Drizzle" :
-            document.getElementById("bg").style.background = linearGradient + ", url('/img/drizzle.webp')";
+            document.getElementById("bg").style.background = linearGradient + ", url('img/drizzle.webp')";
             break;
             
           case "Thunderstorm" :
-            document.getElementById("bg").style.background = linearGradient + ", url('/img/thunderstorm.gif')";
+            document.getElementById("bg").style.background = linearGradient + ", url('img/thunderstorm.gif')";
             break;
             
           default:
-            document.getElementById("bg").style.background = linearGradient + ", url('/img/clear.gif')";
+            document.getElementById("bg").style.background = linearGradient + ", url('img/clear.gif')";
             break;
             
         }
